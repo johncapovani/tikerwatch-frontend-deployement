@@ -1,0 +1,196 @@
+/* Main styles for the stock metrics page */
+.stock-metrics {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 100px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Form styles */
+.stock-metrics form {
+  display: flex;
+  margin-top: 30px;
+}
+
+.stock-metrics input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  background-color: #e6e6e6;
+  color: #333;
+}
+
+.stock-metrics button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.stock-metrics button[type="submit"]:hover {
+  background-color: #555;
+}
+
+.stock-summary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: auto;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.stock-summary-item {
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.stock-summary h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.stock-summary p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.stock-summary h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #007bff;
+  text-transform: uppercase;
+}
+
+.stock-summary-item:nth-child(1) {
+  grid-column: 1 / -1;
+}
+
+@media only screen and (max-width: 768px) {
+  .stock-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .stock-summary-item:nth-child(1) {
+    grid-column: 1 / -1;
+  }
+}
+
+
+/* Metrics list styles */
+.metrics-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.metric-item {
+  flex-grow: 1;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.metric-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.metric-item p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.metric-grade {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Styles for different metric grades */
+.highlight-excellent {
+  color: #34c759;
+}
+
+.highlight-good {
+  color: #5ac8fa;
+}
+
+.highlight-bad {
+  color: #ff3b30;
+}
+
+.legend-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.pillarheading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.legend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+}
+
+.legend-item p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.legend-excellent {
+  width: 20px;
+  height: 20px;
+  background-color: #34c759;
+  border-radius: 50%;
+}
+
+.legend-good {
+  width: 20px;
+  height: 20px;
+  background-color: #5ac8fa;
+  border-radius: 50%;
+}
+
+.legend-bad {
+  width: 20px;
+  height: 20px;
+  background-color: #ff3b30;
+  border-radius: 50%;
+}
+
