@@ -1,17 +1,31 @@
-8 Pillar Stock Analysis App
-This is a web application that analyzes stocks based on the 8 pillars of stock analysis. Users can search for a stock by symbol and view important metrics, grades, and charts for each of the 8 pillars.
+# Tikerwatch - 8 Pillar Stock Analysis Tool
 
-Tech Stack
-The app is built with the following tech stack:
+## Contributors
+John Capovani (johncapovani)
 
-React
-Node.js
-Express
-MongoDB
-JWT/Bcrypt for Authentication
-Redux for state managment
+## Overview
+With TikerWatch, users can not only search for any ticker and get the 8 pillar metrics for fundamental analysis, but they can also add tickers to their watchlist for easy tracking. This allows users to stay on top of their investments and quickly see any changes in the stock's performance.
 
-Installation
+In addition to this, TikerWatch also provides relevant news for the stocks that users follow, keeping them up-to-date with any developments that may impact their investments. This ensures that users have all the necessary information to make informed investment decisions.
+
+By combining the power of fundamental analysis with the ability to track and stay informed on relevant news, TikerWatch is the ultimate tool for any value investor looking to make profitable investments in the stock market.
+
+## Technologies
+1. Mongo/mongoose
+2. Express (and async handler)
+3. React
+4. Node.js
+5. JSON Webtoken Validation for User Authentication
+
+## Features
+- View 8 pillar metrics and grades for each stock
+- Add stocks to a watchlist
+- Responsive design for desktop and mobile devices
+- Built with React, Node.js, Express, MongoDB, and Redux
+- Uses Alpha Vantage API for stock data and news sources for financial news
+- Simple and intuitive user interface for easy navigation and analysis
+
+# Installation
 To run the app locally, follow these steps:
 
 Clone the repository: git clone https://github.com/johncapovani/8-pillar-stock-analysis
@@ -29,19 +43,31 @@ Analyze the data to make informed investment decisions.
 
 Users can add tickers to the watchlist screen as well. Simply enter the stocks name, symbol, and  industry and submit.
 
-Resources
-Here are some resources that were helpful in building this app:
+However, there is a lot of room for scalability:
+### Stretch Goals
+- View relevant news for followed stocks
+- Options Trade Suggestions
+- Notify users when stocks are trending to alert investors to potential winners
 
-Investopedia: 8 Pillars of Financial Success
-Alpha Vantage API
-Chart.js documentation
-Investopedia. (n.d.). Fundamental Analysis. https://www.investopedia.com/terms/f/fundamentalanalysis.asp
-Investopedia. (n.d.). Technical Analysis. https://www.investopedia.com/terms/t/technicalanalysis.asp
-Morningstar. (n.d.). Analyst Research. https://www.morningstar.com/investing/analyst-research
-Koyfin. (n.d.). Koyfin | Advanced graphing and analytical tools for investors. https://www.koyfin.com/
-Yahoo Finance. (n.d.). Yahoo Finance - Stock Market Live, Quotes, Business & Finance News. https://finance.yahoo.com/
-Seeking Alpha. (n.d.). Stock Market Insights | Seeking Alpha. https://seekingalpha.com/
-The Balance. (n.d.). How to Analyze a Stock. https://www.thebalance.com/how-to-analyze-stocks-357224
-MarketWatch. (n.d.). MarketWatch: Stock Market News - Financial News - MarketWatch. https://www.marketwatch.com/
-Benzinga. (n.d.). Stock Market Quotes, Business News, Financial News, Trading Ideas, and Stock Research by Professionals. https://www.benzinga.com/
-Zacks Investment Research. (n.d.). Zacks Investment Research: Stock Research, Analysis, & Recommendations. https://www.zacks.com/# tikerwatch-frontend-deployment
+## What we learned
+
+## Citations and Resources
+- Referenced Traversy Media for JWTToken, Protected Routes, etc.
+- Traversy Media https://www.youtube.com/watch?v=-0exw-9YJBo&t=821s
+- Investopedia. "8 Pillars of Financial Success". https://www.investopedia.com/terms/e/eight-pillars-financial-prosperity.asp
+- Morningstar. (n.d.). Analyst Research. https://www.morningstar.com/investing/analyst-research
+- Koyfin. (n.d.). Koyfin | Advanced graphing and analytical tools for investors. https://www.koyfin.com/
+- Yahoo Finance. (n.d.). Yahoo Finance - Stock Market Live, Quotes, Business & Finance News. https://finance.yahoo.com/
+- Seeking Alpha. (n.d.). Stock Market Insights | Seeking Alpha. https://seekingalpha.com/
+- The Balance. (n.d.). How to Analyze a Stock. https://www.thebalance.com/how-to-analyze-stocks-357224
+- Alpha Vantage. "API Documentation". https://www.alphavantage.co/documentation/
+- Chart.js. "Documentation". https://www.chartjs.org/docs/latest/
+- MongoDB. "Documentation". https://docs.mongodb.com/
+- Node.js. "Documentation". https://nodejs.org/en/docs/
+- React. "Documentation". https://reactjs.org/docs/getting-started.html
+- Redux. "Documentation". https://redux.js.org/
+- JWT. "JSON Web Tokens". https://jwt.io/
+- Bcrypt. "Documentation". https://www.npmjs.com/package/bcrypt
+- Axios. "Documentation". https://axios-http.com/docs/intro
+- Build a COMPLETE Fullstack Responsive MERN App with Auth, Likes, Dark Mode | React, MongoDB, MUI 
+https://www.youtube.com/watch?v=K8YELRmUb5o&t=313s
