@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = process.env.REACT_APP_API_URL || 'https://tikerwatch.onrender.com/api/users/';
+const API_URL = 'https://tikerwatch.onrender.com/api/users/';
 
 // Register user
 const register = async (userData) => {
