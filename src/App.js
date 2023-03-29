@@ -13,6 +13,9 @@ import Header from './components/Header.jsx';
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
+//Declare URL
+export const URL = process.env.REACT_APP_SERVER_URL
+
 function App() {
   return (
     <>
