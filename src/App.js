@@ -14,7 +14,7 @@ import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 //Declare URL
-export const URL = process.env.REACT_APP_SERVER_URL
+export const URL = 'https://tikerwatch.onrender.com'
 
 function App() {
   return (
