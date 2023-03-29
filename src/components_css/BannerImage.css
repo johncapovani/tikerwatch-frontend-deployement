@@ -1,6 +1,6 @@
 .banner-image {
   position: relative;
-  height: 500px;
+  height: 600px;
   background-color: rgba(245, 245, 245, 0.9); /* added opacity value */
 }
 
@@ -50,7 +50,7 @@
 
 @media (max-width: 768px) {
   .banner-image {
-    height: 40VH;
+    height: 60VH;
     margin-top: 50px;
   }
 
