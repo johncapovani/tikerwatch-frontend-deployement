@@ -1,6 +1,9 @@
 import axios from 'axios';
+//Import URL
+import { URL } from '../App'
 
-const API_URL = process.env.REACT_APP_API_URL || 'https://tikerwatch.onrender.com/api';
+const API_URL = `${URL}/api`
+
 
 // Get all stocks
 export const getAllStocks = async (token) => {
