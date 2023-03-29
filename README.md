@@ -52,6 +52,8 @@ However, there is a lot of room for scalability:
 ## What we learned
 
 ## Citations and Resources
+- Used Traversy Media Controller, Routes, Redux Slice structure for the backend https://github.com/bradtraversy/mern-tutorial
+- Referenced code from personal projects and reused it to prevent having to recreate it all again. Such as styling, header, login page, register page, and other react components
 - Referenced Traversy Media for JWTToken, Protected Routes, etc.
 - Traversy Media https://www.youtube.com/watch?v=-0exw-9YJBo&t=821s
 - Investopedia. "8 Pillars of Financial Success". https://www.investopedia.com/terms/e/eight-pillars-financial-prosperity.asp
